@@ -54,3 +54,9 @@ and on click i am calling the move() function
         move();
     }
 ```
+
+Also to avoid calling multiple times the <kbd>document.getElementById("shape")</kbd> I made a
+
+```
+const shape=document.getElementById("shape);
+```
