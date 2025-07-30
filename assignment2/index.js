@@ -1,13 +1,13 @@
 let start_time;
 
 function move() {
-    const left = Math.random() * 99;
-    const top = Math.random() * 300;
+    const left = Math.random() * 85;
+    const top = Math.random() * 76;
     const wh = Math.random() * 100 + 100;
 
     const shape = document.getElementById("shape");
     shape.style.left = left + "%";
-    shape.style.top = top + "px";
+    shape.style.top = top + "dvh";
     shape.style.width = wh + "px";
     shape.style.height = wh + "px";
     shape.style.display = "block";
