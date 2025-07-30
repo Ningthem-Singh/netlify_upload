@@ -1,12 +1,12 @@
 let start_time;
 
 function move() {
-    const left = Math.random();
+    const left = Math.random() * 99;
     const top = Math.random() * 300;
     const wh = Math.random() * 100 + 100;
 
     const shape = document.getElementById("shape");
-    shape.style.left = left + "px";
+    shape.style.left = left + "%";
     shape.style.top = top + "px";
     shape.style.width = wh + "px";
     shape.style.height = wh + "px";
